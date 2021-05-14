@@ -1,5 +1,6 @@
           /* have the links to the other webpages inline with each other, have the in font 25px */
           nav li {
+
             display: inline-block;
             padding: 10px;
             margin: 2px;
