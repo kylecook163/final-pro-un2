@@ -5,7 +5,7 @@
         <title>A look into Kyle</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
-        <link rel="stylething" href="style.css">
+        <link rel="stylesheet" href="style.css">
 
 
         <style>
@@ -30,6 +30,31 @@
                 width: 100%;
                 border: 3px;
              }
+             nav li {
+                     display: inline-block;
+                    padding: 10px;
+                    margin: 2px;
+                    margin-bottom: 5px;
+                    font-size: 25px;
+                    transition: transform 0.5s ease;
+                        }
+                /* the colour of the boxes around the link */
+            nav a {
+                    padding: 5px;
+                    margin: 4px;
+                    border: 2px solid darkblue;
+                    background-color: lightblue;
+                    color: whitesmoke;
+                    }
+                /* the colour of the links before they are clicked */
+            nav a:hover, nav a:focus {
+                    background-color: whitesmoke;
+                    color: dimgray;
+                    }
+                /* what the colour of the links will be when they are clicked */
+            nav a:visited {
+                    color: purple;
+                }
              /* making an image so its on the left of the top of the webpage */
              img{
                  display: inline;
@@ -38,6 +63,7 @@
              }
              span{
                  position: fixed;
+                 
              }
 
          
